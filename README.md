@@ -3,4 +3,4 @@
 
 wowee
 
-<a href="https://joaopedro-souza-de-abreu.github.io/html-css/exercicios/ex001/index.html">Executar o exercicio 01
+<a href="https://joaopedro-souza-de-abreu.github.io/html-css/exercicios/ex001/index.html">Executar o exercicio 01</a>
