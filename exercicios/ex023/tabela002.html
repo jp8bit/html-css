@@ -3,9 +3,189 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Tabelas</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    td, th {
+      border: 1px solid black;
+      padding: 8px;
+    }
+
+    table {
+      width: 500px;
+      border-collapse: collapse;
+      position: relative;
+    }
+
+    thead, tfoot {
+      background-color: rgb(38, 37, 37);
+      color: white;
+    }
+
+    thead > tr > th {
+      position: sticky;
+      top: -1px;
+      background-color: rgb(38, 37, 37);
+    }
+
+    .num {
+      text-align: right;
+    }
+
+    caption {
+      font-size: 1.3em;
+      font-weight: bold;
+      padding: 10px;
+      background-color: lightgray;
+    }
+
+    tbody > tr:nth-child(even) {
+      background-color: grey;
+    }
+  </style>
 </head>
 <body>
-  
+  <h1>Uso de tabelas Grandes</h1>
+
+  <table>
+    <caption>População das unidades federativas</caption>
+    <thead>
+      <tr>
+        <th scope="col">Estado</th>
+        <th scope="col" style="width: 50px;">População</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>São Paulo</td>
+        <td class="num">45 919 069</td>
+      </tr>
+      <tr>
+        <td>Minas Gerais</td>
+        <td class="num">21 490 678</td>
+      </tr>
+      <tr>
+        <td>Rio de Janeiro</td>
+        <td class="num">17 986 456</td>
+      </tr>
+      <tr>
+        <td>Roraima</td>
+        <td class="num">5 890 256</td>
+      </tr>
+      <tr>
+        <td>Espirito Santo</td>
+        <td class="num">15 178 974</td>
+      </tr>
+      <tr>
+        <td>São Paulo</td>
+        <td class="num">45 919 069</td>
+      </tr>
+      <tr>
+        <td>Minas Gerais</td>
+        <td class="num">21 490 678</td>
+      </tr>
+      <tr>
+        <td>Rio de Janeiro</td>
+        <td class="num">17 986 456</td>
+      </tr>
+      <tr>
+        <td>Roraima</td>
+        <td class="num">5 890 256</td>
+      </tr>
+      <tr>
+        <td>Espirito Santo</td>
+        <td class="num">15 178 974</td>
+      </tr>
+      <tr>
+        <td>São Paulo</td>
+        <td class="num">45 919 069</td>
+      </tr>
+      <tr>
+        <td>Minas Gerais</td>
+        <td class="num">21 490 678</td>
+      </tr>
+      <tr>
+        <td>Rio de Janeiro</td>
+        <td class="num">17 986 456</td>
+      </tr>
+      <tr>
+        <td>Roraima</td>
+        <td class="num">5 890 256</td>
+      </tr>
+      <tr>
+        <td>Espirito Santo</td>
+        <td class="num">15 178 974</td>
+      </tr>
+      <tr>
+        <td>São Paulo</td>
+        <td class="num">45 919 069</td>
+      </tr>
+      <tr>
+        <td>Minas Gerais</td>
+        <td class="num">21 490 678</td>
+      </tr>
+      <tr>
+        <td>Rio de Janeiro</td>
+        <td class="num">17 986 456</td>
+      </tr>
+      <tr>
+        <td>Roraima</td>
+        <td class="num">5 890 256</td>
+      </tr>
+      <tr>
+        <td>Espirito Santo</td>
+        <td class="num">15 178 974</td>
+      </tr>
+      <tr>
+        <td>São Paulo</td>
+        <td class="num">45 919 069</td>
+      </tr>
+      <tr>
+        <td>Minas Gerais</td>
+        <td class="num">21 490 678</td>
+      </tr>
+      <tr>
+        <td>Rio de Janeiro</td>
+        <td class="num">17 986 456</td>
+      </tr>
+      <tr>
+        <td>Roraima</td>
+        <td class="num">5 890 256</td>
+      </tr>
+      <tr>
+        <td>Espirito Santo</td>
+        <td class="num">15 178 974</td>
+      </tr>
+      <tr>
+        <td>São Paulo</td>
+        <td class="num">45 919 069</td>
+      </tr>
+      <tr>
+        <td>Minas Gerais</td>
+        <td class="num">21 490 678</td>
+      </tr>
+      <tr>
+        <td>Rio de Janeiro</td>
+        <td class="num">17 986 456</td>
+      </tr>
+      <tr>
+        <td>Roraima</td>
+        <td class="num">5 890 256</td>
+      </tr>
+      <tr>
+        <td>Espirito Santo</td>
+        <td class="num">15 178 974</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row">Total de habitantes</th>
+        <td class="num"><strong>102.804.362</strong></td>
+      </tr>
+    </tfoot>
+  </table>
 </body>
 </html>
