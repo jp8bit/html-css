@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionando conteudos</title>
+  <style>
+    .video {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+      height: 0;
+      overflow: hidden;
+      margin: 20px 0;
+    }
+    
+    .video iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 75%;
+      height: 75%;
+      border: none;
+    }
+
+    .mapas {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      margin: 20px 0;
+    }
+    
+    .mapas iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 90%;
+      height: 90%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Conteudos dentro de iframes</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi a sit repellat ipsam cupiditate. Nemo molestias aspernatur, deleniti sint modi dolorum aliquid obcaecati adipisci iure rem rerum a illum suscipit!</p>
+  <h2>Videos</h2>
+  <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/oNLNNYJZOfk?si=pwF26VFPG2J1BBu-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen"></iframe></div>
+  <h2>Mapas do Google</h2>
+  <div class="mapas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.296041922576!2d-43.17716562491207!3d-22.902449079258155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f58a6a00a9d%3A0x3f251d85272f76f7!2sHostnet%20Internet!5e0!3m2!1spt-BR!2sbr!4v1742845871791!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+</body>
+</html>
