@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/style.css">
+  <title>Media Query</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Meu Site</h1>
+    <i id="burguer" class="material-icons" onclick="clickmenu()">menu</i>
+    <menu id="menu">
+      <ul>
+       <li><a href="#">Opção 1</a></li>
+       <li><a href="#">Opção 2</a></li>
+       <li><a href="#">Opção 3</a></li>
+       <li><a href="#">Opção 4</a></li>
+      </ul>
+    </menu>
+  </header>
+  <main>
+    <article>
+      <h2>Testando Media Queries</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi obcaecati enim fuga delectus eaque consectetur dolorum velit harum, suscipit quos error rem sit, ipsa repudiandae repellat hic! Dicta, earum unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quaerat quisquam, odit exercitationem deserunt perferendis assumenda, accusamus at aliquid doloribus amet excepturi! Neque dolorem molestiae praesentium eveniet consequuntur, consequatur assumenda.</p>
+
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto incidunt voluptatibus dolores esse accusamus nam porro illo culpa debitis, explicabo recusandae eum perspiciatis eligendi doloremque odio id iure rem ipsum.</p>
+
+
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro debitis mollitia deleniti, expedita nihil distinctio quidem atque facere beatae corporis, cumque libero ullam cum alias, quas dolor ad soluta ratione? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa cum quibusdam rem nobis, optio libero non minus omnis hic distinctio delectus, odio alias minima esse dolore necessitatibus repudiandae corrupti atque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel labore maiores nam consequuntur? Officia nobis eaque ab. Facilis voluptatum qui eaque vel eum totam esse impedit perferendis, laudantium magnam quidem?</p>
+    </article>
+  </main>
+  <script>
+    function clickmenu() {
+      if (menu.style.display == 'block') {
+        menu.style.display = 'none'
+      } else {
+        menu.style.display = 'block'
+      }
+    }
+  </script>
+</body>
+</html>
